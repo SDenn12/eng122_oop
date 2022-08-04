@@ -14,7 +14,7 @@ class Reptile(Animal):  # write the name of the parent class in () to inherit
     def seek_heat(self):
         return "looking for the sun shine"
 
-    def hunt(self):
+    def __hunt(self):
         return "working hard to catch a next meal"
 
 
