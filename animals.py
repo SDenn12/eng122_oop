@@ -11,5 +11,5 @@ class Animal:
         return "yum"
 
 
-p1 = Animal()
-print(p1.sleep())
+# p1 = Animal()
+# print(p1.sleep())
