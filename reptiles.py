@@ -10,6 +10,7 @@ class Reptile(Animal):  # write the name of the parent class in () to inherit
         self.cold_blooded = True
         self.heart_chambers = [3,4]
 
+    # creates the functions
     def seek_heat(self):
         return "looking for the sun shine"
 
@@ -17,8 +18,8 @@ class Reptile(Animal):  # write the name of the parent class in () to inherit
         return "working hard to catch a next meal"
 
 
-p2 = Reptile()
-print(p2.sleep())
-print(p2.hunt())
-print(p2.cold_blooded)
-print(p2.alive)
+# p2 = Reptile()
+# print(p2.sleep())
+# print(p2.hunt())
+# print(p2.cold_blooded)
+# print(p2.alive)
