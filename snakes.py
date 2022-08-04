@@ -11,9 +11,6 @@ class Snakes(Reptile):
     def tongue_smell(self):
         return "you smell nice :) "
 
-    def seek_heat(self):
-        return "i am plenty warm :) "
-
     # protected module '_'
     def _move(self):
         return "slithers"
@@ -23,7 +20,15 @@ class Snakes(Reptile):
         return "hello"
 
 
-# p3 = Snakes()
+p3 = Snakes()
+try:
+    print(p3.__hiss())
+except AttributeError:
+    print("this is information is protected or hidden")
+
+
+
+
 # print(p3.forked_tongue)
 # print(p3.tongue_smell())
 # print(p3.seek_heat())
@@ -31,9 +36,13 @@ class Snakes(Reptile):
 #
 # # You can access from anywhere it is just notation to developers to not touch it
 #
-# print(p3._move())
-# print(p3._Snakes__hiss())
+#print(p3._move())
+#print(p3._Snakes__hiss())
 # print(p3._Snakes__scales)
-# p3._Snakes__scales = 11
+# p3._Snakes__scales = 15
 # print(p3._Snakes__scales)
-# print(p3._Reptile__hunt())
+#print(p3._Reptile__hunt())
+
+#  what types of errors have we seen so far
+#  syntax error
+#  identation error, value errors, attribute errors,
